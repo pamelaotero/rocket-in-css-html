@@ -120,3 +120,43 @@ body {
     top: 386px;
     left: 83px;
 }
+
+.fire {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    padding-bottom: 30%;
+    background: #ff6234;
+    border-radius: 0 75% 75% 75%;
+    transform: rotate(0deg);
+    animation: fire 2s linear infinite alternate;
+    animation-delay: 1s;
+}
+
+/* https://freefrontend.com/css-fire-animation/ */
+/*     
+    .back {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding-bottom: 100%;
+      background: #ff6234;
+      border-radius: 0 75% 75% 75%;
+      transform: rotate(45deg);
+      animation: fire 2s linear infinite alternate;
+      animation-delay: 1s;
+    }
+    
+    .medium {
+      position: absolute;
+      bottom: 5%;
+      left: 10%;
+      width: 80%;
+      padding-bottom: 80%;
+      background: #ff7d17;
+      border-radius: 0 75% 75% 75%;
+      transform: rotate(45deg);
+      animation: fire 2s linear infinite alternate;
+      animation-delay: .5s;
+    }
+     */
