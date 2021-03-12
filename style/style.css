@@ -22,7 +22,8 @@ body {
     top:0px;
     width: 300px;
     height: 500px;
-    transform: rotate(25deg);
+    /* transform: translatey(0px);
+	animation: mov 3s ease-in-out infinite; */
 }
 
 .rocket-body * {
@@ -128,42 +129,22 @@ body {
     left: 85px;
 }
 
-/* .fire {
-    position: absolute;
-    bottom: 0;
-    width: 30%;
-    padding-bottom: 30%;
-    background: #ff6234;
-    border-radius: 0 75% 75% 75%;
-    transform: rotate(0deg);
-    animation: fire 2s linear infinite alternate;
-    animation-delay: 1s;
+/* @keyframes mov {
+	0% {
+		transform: translatey(0px);
+        transform: rotate(20deg);
+	}
+	50% {
+		transform: translatey(0px);
+        top: -400px;
+        left: 300px;
+        transform: rotate(40deg);
+	}
+	100% {
+		transform: translatey(0px);
+        top: -1000px;
+        left: 900px;
+        transform: rotate(40deg);
+	}
 } */
 
-/* https://freefrontend.com/css-fire-animation/ */
-/*     
-    .back {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      padding-bottom: 100%;
-      background: #ff6234;
-      border-radius: 0 75% 75% 75%;
-      transform: rotate(45deg);
-      animation: fire 2s linear infinite alternate;
-      animation-delay: 1s;
-    }
-    
-    .medium {
-      position: absolute;
-      bottom: 5%;
-      left: 10%;
-      width: 80%;
-      padding-bottom: 80%;
-      background: #ff7d17;
-      border-radius: 0 75% 75% 75%;
-      transform: rotate(45deg);
-      animation: fire 2s linear infinite alternate;
-      animation-delay: .5s;
-    }
-     */
