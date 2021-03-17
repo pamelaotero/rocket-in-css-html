@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(39, 39, 39);
+    background-color: #0E216D;
 }
 
 *,
@@ -19,11 +19,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    top:0px;
+    top: -100px;
     width: 300px;
     height: 500px;
-    /* transform: translatey(0px);
-	animation: mov 3s ease-in-out infinite; */
+    transform: translatey(0px);
+	animation: mov 3s ease-in-out infinite;
 }
 
 .rocket-body * {
@@ -142,6 +142,7 @@ body {
     background-color: orange;
     transform: rotate(223deg);
     z-index: -2;
+    animation: fire 3s ease-in-out infinite;
 }
 
 .fire :nth-child(1) {
@@ -152,6 +153,7 @@ body {
     border-radius: 0% 60% 70% 60%;
     background-color: #FFC225;
 }
+
 
 @keyframes mov {
 	0% {
@@ -166,30 +168,19 @@ body {
 	}
 	100% {
 		transform: translatey(0px);
-        top: -1000px;
+        top: -1500px;
         left: 900px;
         transform: rotate(40deg);
 	}
 }
 
 
-@keyframes shadow-fire {
+@keyframes fire {
 	0% {
-		transform: translatey(0px);
-        transform: rotate(20deg);
-        
+        border: none;
 	}
-	/* 50% {
-		transform: translatey(0px);
-        top: -400px;
-        left: 300px;
-        transform: rotate(40deg);
+    50% {
+		box-shadow: -10px -10px 10px #ffc125b7;
 	}
-	100% {
-		transform: translatey(0px);
-        top: -1000px;
-        left: 900px;
-        transform: rotate(40deg);
-	} */
-}
+} 
 
