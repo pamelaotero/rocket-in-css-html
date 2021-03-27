@@ -164,7 +164,7 @@ body {
     left: -40px;
     border-radius: 100%;
     background: linear-gradient(90deg, #FED611 8.66%, #FF8E50 62.35%, #FF27AA 120.09%);    animation: translateBackground 30s infinite linear; 
-    box-shadow: 5px 5px 10px #41046449;
+    box-shadow: 0px 0px 20px #FF8E50;
     animation: planet-float 5s ease-in-out infinite;
 }
 
@@ -224,9 +224,9 @@ body {
     bottom: 100px;
     right: 40px;
     border-radius: 100%;
-    background: linear-gradient(57.96deg, #A661FC 24.03%, #4962FD 76.32%, #4760FB 90.15%);    animation: translateBackground 30s infinite linear; 
-    box-shadow: 5px 5px 10px #41046449;
+    background: linear-gradient(57.96deg, #A661FC 24.03%, #4962FD 76.32%, #4760FB 90.15%);    
     animation: planet-float 5s ease-in-out infinite;
+    box-shadow: 0px 0px 10px #A661FC;
 }
 
 .planet-saturn {
@@ -239,7 +239,8 @@ body {
     left: 1000px;
     border-radius: 100%;
     background: linear-gradient(258.59deg, #FF7369 27.51%, #FFB831 86.08%);
-    box-shadow: 5px 5px 10px #41046449;
+    box-shadow: 0px 0px 10px #FFB831;
+
 }
 
 .planet-saturn > div {
@@ -258,6 +259,7 @@ body {
 
 .planet-saturn :nth-child(1) {
     border: 10px solid #7BDAB3;
+    box-shadow: 0px 0px 7px #7BDAB3;
     z-index: -1;
 }
 
