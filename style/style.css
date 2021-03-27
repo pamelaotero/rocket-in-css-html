@@ -1,6 +1,7 @@
 body {
     padding: 0;
-    margin: 0;    
+    margin: 0;  
+    background-color: #0f092b;  
 }
 
 *,
@@ -9,7 +10,6 @@ body {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background-color: #0f092b;
 }
 
 .rocket-body {
@@ -154,7 +154,7 @@ body {
     background-color: #FFC225;
 }
 
-.planet {
+.planet-yellow {
     position: absolute;
     content: "";
     margin: auto;
@@ -167,7 +167,7 @@ body {
     box-shadow: 5px 5px 10px #41046449;
 }
 
-.planet :nth-child(1) {
+.planet-yellow :nth-child(1) {
     position: absolute;
     content: "";
     width: 30px;
@@ -178,7 +178,7 @@ body {
     background: linear-gradient(249.72deg, #FB3D2F -35.9%, rgba(251, 61, 47, 0) 76.38%);
 }
 
-.planet :nth-child(2) {
+.planet-yellow :nth-child(2) {
     position: absolute;
     content: "";
     width: 50px;
@@ -189,7 +189,7 @@ body {
     background: linear-gradient(148.86deg, rgba(249, 37, 85, 0.64) 25.15%, rgba(233, 66, 144, 0) 88.97%);
 }
 
-.planet :nth-child(3) {
+.planet-yellow :nth-child(3) {
     position: absolute;
     content: "";
     width: 60px;
@@ -200,7 +200,7 @@ body {
     background: linear-gradient(180deg, #F66917 0%, rgba(246, 105, 23, 0) 100%);
 }
 
-.planet :nth-child(4) {
+.planet-yellow :nth-child(4) {
     position: absolute;
     content: "";
     width: 10px;
@@ -211,7 +211,7 @@ body {
     background: linear-gradient(180deg, #EA7528 0%, rgba(242, 121, 48, 0) 100%);
 }
 
-.planet :nth-child(5) {
+.planet-yellow :nth-child(5) {
     position: absolute;
     content: "";
     width: 25px;
@@ -235,8 +235,47 @@ body {
     box-shadow: 5px 5px 10px #41046449;
 }
 
+.planet-saturn {
+    position: absolute;
+    content: "";
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    top: 30px;
+    left: 1000px;
+    border-radius: 100%;
+    background: linear-gradient(258.59deg, #FF7369 27.51%, #FFB831 86.08%);
+    box-shadow: 5px 5px 10px #41046449;
+}
 
-/* @keyframes mov {
+.planet-saturn :nth-child(1) {
+    border: 10px solid #7BDAB3;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 40px;
+    right: -40px;
+    bottom: 30px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.planet-saturn :nth-child(2) {
+    border-bottom: 10px solid #7BDAB3;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 40px;
+    right: -40px;
+    bottom: 30px;
+    background-color: transparent;
+}
+
+@keyframes mov {
 	0% {
 		transform: translatey(0px);
         transform: rotate(20deg);
@@ -253,7 +292,7 @@ body {
         left: 900px;
         transform: rotate(40deg);
 	}
-} */
+}
 
 @keyframes fire {
 	0% {
