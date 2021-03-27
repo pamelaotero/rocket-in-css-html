@@ -351,6 +351,43 @@ body {
     background: #7BDAB3;
 }
 
+.contact {
+    color: white;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;    
+    position: absolute;
+    margin: auto;
+    left: 5px;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    margin: auto;
+    bottom: 20px;
+    left: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 6px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    color: violet;
+    text-shadow: 0px 0px 1px #FFFFFF;
+    transition: 1s;
+}
 
 @keyframes mov {
 	0% {
@@ -409,3 +446,5 @@ body {
         transform: rotate(-20deg);
 	}
 }
+
+
