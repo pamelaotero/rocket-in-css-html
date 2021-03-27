@@ -184,34 +184,6 @@ body {
 }
 
 
-/* .ring {
-    width: 400px;
-    height: 100px;
-    top: 50px;
-    left: -100px;
-    position: absolute;
-    content: "";
-    background-color: none;
-    border-bottom: 20px solid red;
-    border-radius: 100%;
-    transform: rotate(-20deg);
-} */
-
-/* .ring:after {
-    width: 400px;
-    height: 200px;
-    top: 5px;
-    left: 0px;
-    position: absolute;
-    border-radius: 50%;
-    content: "";
-    background-color: none;
-    border: 20px solid beige;
-    box-sizing: border-box;
-    box-sizing: border-box;
-} */
-
-
 @keyframes mov {
 	0% {
 		transform: translatey(0px);
@@ -239,4 +211,3 @@ body {
 		box-shadow: -10px -10px 10px #ffc125b7;
 	}
 } 
-
